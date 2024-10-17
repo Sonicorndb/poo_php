@@ -1,0 +1,20 @@
+<?php
+
+    class productoController{
+        //private $Servicio;
+
+        public function __construct(){
+            //Construcción del objeto servicio
+        }
+
+        public function listarProductos(){
+            //Usar el atributo servicio y traer todos los datos de la BBDD para mostrarlos
+        }
+
+        public function ejecuta(){
+            $producto = $this->listarProductos();
+
+            require_once("vista/main.php")
+        }
+    }
+?>
